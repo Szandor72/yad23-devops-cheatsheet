@@ -1,21 +1,9 @@
-# Salesforce Platform
+# DevOps In Well Architected
 
-Whenever you work with Platform or products built on the core platform, you work with the [Metadata API](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm)
+## Trusted, Easy, and Adaptable
 
-## Metdata API
+Delivery and Governance are cross cutting concern in every Salesforce CRM project. As Architects we strive to deliver trusted, easy, and adaptable solutions - but would you call changesets one of them? For years, they - together with four sandboxes - have been our central answer to basically all deployment questions. Are they still today?
 
-- lorem ipsum
-- lorem ipsum
+Options are manifold: there are plenty of vendors as well as tools to choose from for help with deployments. We do have DX and source tracking. Static 'Code' Analysis helps to detect quality issues in Code as well as Metadata. Great news for front-end coders on a Mac who know git and node and bash but we also have App and Flow Builders, Apex Devs, Admins, and Analysts working towards production on windows machines.
 
-## Platform Products
-
-### CPQ
-
-    CPQ / Steelbrick
-        ...       Uses Desktop Application
-
-### Salesforce Industries
-
-    Salesforce Industries / Vlocity
-        OmniScript
-        ...       Uses Desktop Application
+Then there is a system landscape to think of, test data to provide that complies with local laws, and the question of End To End Testing needs answering, too. If you feel you need some guidance, I feel the same. Let’s think about a DevOps Cheat Sheet together and challenge ourselves to fit trusted, easy, and adaptable approaches for Salesforce DevOps on a few sheets of paper.
