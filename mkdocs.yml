@@ -34,6 +34,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+plugins:
+  - search
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -54,6 +57,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 copyright: |
   No-&copy; 2023 <a href="https://github.com/Szandor72/yad23-devops-cheatsheet/blob/main/LICENSE"  target="_blank" rel="noopener">Yeur Architect Dreamin - Free to all</a>
