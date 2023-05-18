@@ -2,6 +2,8 @@ site_name: Salesforce DevOps Cheatsheet
 site_url: https://szandor72.github.io/yad23-devops-cheatsheet/
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/logo.png
   features:
     - navigation.tabs
     - navigation.sections
